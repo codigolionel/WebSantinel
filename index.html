@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Sentinel - Servicios de Alarmas y Seguridad</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="containerInicio">
+            <nav>
+                <div>
+                <img class="logo" src="./Logo Global.png" alt="Logo de SegurAlarm">
+        </a></div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#features">Características</a></li>
+                    <li><a href="#about">Nosotros</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+                <div class="hamburger">☰</div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container2">
+            <h1 id="titleh1">Instalacón, Monitoreo y Mantenimiento de Alarmas
+            </h1>
+            <p>En Global Sentinel S.R.L. somos líderes en la provisión de soluciones de seguridad para hogares, empresas y organizaciones. Proporcionamos tranquilidad y protección a través de nuestros servicios especializados de monitoreo e instalación de sistemas de seguridad.</p>
+            <a href="#contact" class="btn">Whatsapp Contact</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="containerServicios">
+            <div class="section-title">
+                <h2>Nuestros Servicios</h2>
+            </div>
+            <div class="services-container">
+                <div class="service-card">
+                    <div class="service-img">
+                        <i>📡</i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Monitoreo de Alarma</h3>
+                        <p>Nuestro equipo de expertos monitorea las alarmas las 24 horas del día, los 7 días de la semana, para garantizar una respuesta rápida y efectiva en caso de emergencia.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img">
+                        <i>🔧</i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Instalación de Alarmas</h3>
+                        <p>Nuestros técnicos especializados instalan sistemas de alarma de alta calidad y personalizados para hogares y empresas con la máxima profesionalidad.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img">
+                        <i>🛠️</i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Mantenimiento y Reparación</h3>
+                        <p>Ofrecemos servicios de mantenimiento y reparación para garantizar que nuestros sistemas de seguridad funcionen correctamente y sin interrupciones.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+        <section id="features" class="features">
+        <div class="containerValores">
+            <div class="section-title">
+                <h2>Nuestros Valores</h2>
+            </div>
+            
+            <div class="carousel-container">
+                <div class="carousel-wrapper" id="carouselWrapper">
+                    <div class="feature-item active">
+                        <i>✨</i>
+                        <h3>Compromiso con la Calidad</h3>
+                        <p>Nos dedicamos a ofrecer productos y servicios de la más alta calidad, cumpliendo con los estándares más exigentes de la industria.</p>
+                    </div>
+                    <div class="feature-item">
+                        <i>🤝</i>
+                        <h3>Integridad y Transparencia</h3>
+                        <p>Actuamos con honestidad y transparencia en todas nuestras relaciones comerciales, construyendo confianza duradera con nuestros clientes.</p>
+                    </div>
+                    <div class="feature-item">
+                        <i>🚀</i>
+                        <h3>Innovación y Mejora Continua</h3>
+                        <p>Buscamos constantemente nuevas formas de mejorar nuestros servicios y adoptar las últimas tecnologías en seguridad.</p>
+                    </div>
+                    <div class="feature-item">
+                        <i>⏰</i>
+                        <h3>Disponibilidad 24/7</h3>
+                        <p>Nuestro equipo está disponible las 24 horas del día, los 7 días de la semana, para garantizar una respuesta rápida en emergencias.</p>
+                    </div>
+                </div>
+                
+                <button class="carousel-nav prev" onclick="prevSlide()">❮</button>
+                <button class="carousel-nav next" onclick="nextSlide()">❯</button>
+            </div>
+            
+            <div class="carousel-indicators" id="indicators">
+                <div class="indicator active" onclick="goToSlide(0)"></div>
+                <div class="indicator" onclick="goToSlide(1)"></div>
+                <div class="indicator" onclick="goToSlide(2)"></div>
+                <div class="indicator" onclick="goToSlide(3)"></div>
+            </div>
+            
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+            
+            <div class="touch-hint">
+                Desliza para ver más valores
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="containerNosotros">
+            <div class="section-title">
+                <h2>Sobre Nosotros</h2>
+            </div>
+            <div class="about-container">
+                <div class="about-content">
+                    <h2>Bienvenidos a Global Sentinel S.R.L.</h2>
+                    <p>Somos Global Sentinel S.R.L., una empresa líder en la provisión de soluciones de seguridad integral para hogares, empresas y organizaciones. Nuestro objetivo es proporcionar tranquilidad y protección a nuestros clientes a través de nuestra amplia gama de servicios de monitoreo de alarma y instalación de sistemas de seguridad.</p>
+                    <h2>Nuestra Misión:</h2>
+                    <p> Ser la empresa de seguridad más confiable y eficiente en el mercado, proporcionando soluciones innovadoras y personalizadas que se adapten a las necesidades específicas de nuestros clientes.</p>
+                    <h2>Nuestro Equipo:</h2>
+                    <p>Está compuesto por profesionales altamente capacitados y experimentados en la industria de la seguridad. Nuestros técnicos y expertos en monitoreo de alarma están disponibles las 24 horas del día, los 7 días de la semana.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="cta">
+        <div class="containerListo">
+            <h2>¿Listo para proteger lo que más valora?</h2>
+            <p>Si desea obtener más información sobre nuestros servicios o solicitar una cotización, por favor no dude en contactarnos. Nuestros expertos estarán encantados de ayudarle.</p>
+            <a href="#contact" class="btn">Solicite su cotización</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="containerContacto">
+            <div class="section-title">
+                <h2>Contacto</h2>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Información de Contacto</h3>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i>📞</i>
+                            <p>(011) 6487 2435</p>
+                        </div>
+                        <div class="contact-item">
+                            <i>✉️</i>
+                            <p>globalsentinelok@gmail.com</p>
+                        </div>
+                        <div class="contact-item">
+                            <i>🌐</i>
+                            <p>www.globalsentinel.com.ar</p>
+                        </div>
+                        <div class="contact-item">
+                            <i>🕒</i>
+                            <p>Disponibles 24/7 para emergencias</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#">F</a>
+                        <a href="#">T</a>
+                        <a href="#">I</a>
+                        <a href="#">L</a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Envíe su Consulta</h3>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Nombre completo">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Correo electrónico">
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" class="form-control" placeholder="Teléfono">
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control">
+                                <option selected disabled>Tipo de servicio</option>
+                                <option>Monitoreo de Alarma</option>
+                                <option>Instalación de Alarmas</option>
+                                <option>Mantenimiento y Reparación</option>
+                                <option>Cotización Personalizada</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="Mensaje"></textarea>
+                        </div>
+                        <button type="submit" class="btn">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="containerFooter">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <h4>Global Sentinel</h4>
+                    <p>Empresa líder en soluciones de seguridad integral para hogares, empresas y organizaciones. Proporcionamos tranquilidad y protección con compromiso de calidad, integridad y mejora continua.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#home">Inicio</a></li>
+                        <li><a href="#services">Servicios</a></li>
+                        <li><a href="#about">Sobre Nosotros</a></li>
+                        <li><a href="#contact">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Servicios</h4>
+                    <ul>
+                        <li><a href="#">Monitoreo de Alarma</a></li>
+                        <li><a href="#">Instalación de Alarmas</a></li>
+                        <li><a href="#">Mantenimiento y Reparación</a></li>
+                        <li><a href="#">Sistemas Personalizados</a></li>
+                        <li><a href="#">Respuesta de Emergencia</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Información</h4>
+                    <p>Para más información sobre nuestros servicios:</p>
+                    <div style="margin-top: 1rem;">
+                        <p>📞 (011) 6487 2435</p>
+                        <p>✉️ globalsentinelok@gmail.com</p>
+                        <p>🌐 www.globalsentinel.com.ar</p>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Global Sentinel S.R.L. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+<script src="./main.js"></script>
+</body>
+</html>
