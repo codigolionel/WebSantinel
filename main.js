@@ -1,3 +1,42 @@
+
+// ===== SERVICES SECTION ANIMATIONS =====
+
+// Función para inicializar las animaciones de la sección de servicios
+function initServicesAnimations() {
+    // Configuración del Intersection Observer
+    const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+    };
+
+    // Crear el observer
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('animate');
+            }
+        });
+    }, observerOptions);
+
+    // Observar todas las tarjetas de servicio
+    const serviceCards = document.querySelectorAll('.service-card');
+    serviceCards.forEach(card => {
+        observer.observe(card);
+    });
+}
+
+// Inicializar cuando el DOM esté cargado
+document.addEventListener('DOMContentLoaded', function() {
+    initServicesAnimations();
+});
+
+// También inicializar si el script se carga después del DOM
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initServicesAnimations);
+} else {
+    initServicesAnimations();
+}
+
         let currentSlide = 0;
         const totalSlides = 4;
         const autoPlayInterval = 5000; // 5 seconds
