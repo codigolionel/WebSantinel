@@ -4,12 +4,12 @@
             box-sizing: border-box;
         }
 
-        html{
+        html {
             scroll-behavior: smooth;
         }
 
         body {
-
+            
             font-family: Arial, sans-serif;
             color: #333;
 
@@ -22,6 +22,10 @@
             background-image: url(./celeste_blanco.jpg);
             background-size: cover;
         }
+        /* .container2{
+            margin: 0px 250px;
+           
+        } */
 
         #titleh1 {
             margin: 80px;
@@ -92,26 +96,27 @@
 
         /* Hero Section */
         .hero {
+            box-sizing: border-box;
             background-image: linear-gradient(rgba(0, 0, 0, 0.993), rgba(0, 0, 0, 0.555)),
-                url("./img_Monitoreo.jpg");
+            url("./img_Monitoreo.jpg");
             background-size: cover;
             color: white;
             text-align: center;
             padding-top: 80px;
             z-index: 0;
-            height: 600px;
+            height: 650px;
         }
 
 
         .hero h1 {
-            font-size: 3rem;
+            font-size: 4rem;
             margin-bottom: 1rem;
         }
 
         .hero p {
-            font-size: 1.3rem;
+            font-size: 1.6rem;
             margin-bottom: 1rem;
-            margin: 49px
+            margin: 49px;
         }
 
 
@@ -525,11 +530,31 @@
         }
 
         /* Responsive */
+        /* @media (max-width: 759px) {
+            .about {
+                display: none;
+            }
+
+
+        } */
+
 
         @media (max-width: 759px) {
 
             #titleh1 {
+                font-size: 2,5rem;
                 margin: 20px;
+                padding: 0;            }
+            .about-container{
+                width: 100%;
+
+            }
+            .containerNosotros{
+                margin: 0 ;
+                width: 100vw;
+                padding: 0;
+            }
+            .about{padding: 0;
 
             }
         }
@@ -550,6 +575,9 @@
             .hero h1 {
                 font-size: 2rem;
             }
+            .hero p{
+                font-size: 130%;
+            }
 
             #titleh1 {
                 margin: 20px;
@@ -568,7 +596,7 @@
             }
 
             .hero p {
-                font-size: 1rem;
+                margin: 52px 2px 52px 2px;
             }
 
             /* Animations */
