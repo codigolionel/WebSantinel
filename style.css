@@ -920,7 +920,7 @@ nav {
 .containerNosotros {
     background-color: rgba(0, 0, 0, 0.767);
     margin: 0 90px;
-    border-radius: 20px;
+    /* border-radius: 20px; */
     padding: 5px;
 }
 
