@@ -1074,22 +1074,21 @@ footer {
 
         } */
 
-
 @media (max-width: 769px) {
 
     .container2 {
-        height: 370px;
+        height: 420px;
 
     }
 
     #titleh1 {
-        font-size: 2rem;
+        font-size: 1.8rem;
         margin: 30px;
         padding: 0;
     }
 
     .hero {
-        height: 100vw;
+        height: 150vw;
 
     }
 
