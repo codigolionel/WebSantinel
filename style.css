@@ -361,10 +361,10 @@ nav {
 
 .whatsapp-float {
     position: fixed;
-    width: 70px;
-    height: 70px;
-    bottom: 40px;
-    right: 40px;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    right: 20px;
     background-color: #25d366;
     color: white;
     border-radius: 50%;
@@ -403,8 +403,8 @@ nav {
 
 /* SVG del logo de WhatsApp */
 .whatsapp-icon {
-    width: 32px;
-    height: 32px;
+    width: 30px;
+    height: 30px;
     fill: white;
 }
 
