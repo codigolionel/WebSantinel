@@ -926,7 +926,7 @@ nav {
 
 /* CTA Section */
 .cta {
-    background: #333;
+    background: linear-gradient(375deg, #0e2854a3, #0c0c0c);
     color: white;
     padding: 60px 0;
     text-align: center;
