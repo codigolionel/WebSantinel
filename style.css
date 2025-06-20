@@ -409,10 +409,11 @@ nav {
 }
 
 .btn {
+    margin-top: 70px;
     display: inline-block;
     background: #143c85;
     color: rgb(252, 252, 252);
-    padding: 10px;
+    padding: 5px;
     text-decoration: none;
     border-radius: 10px;
     transition: background 0.3s;
@@ -928,7 +929,7 @@ nav {
 .cta {
     background: linear-gradient(375deg, #0e2854a3, #0c0c0c);
     color: white;
-    padding: 60px 0;
+    padding: 70px 0;
     text-align: center;
 }
 
@@ -1094,6 +1095,7 @@ footer {
 
     .hero p {
         font-size: 0.9rem;
+        margin: 0px 20px 0px 20px; 
     }
 
 
