@@ -1179,7 +1179,7 @@ footer {
             max-height: 0;
             overflow: hidden;
             flex-direction: column;
-            background-color: #fff;
+            background-color: #121010;
             /* o el color que desees */
             position: absolute;
             top: 60px;
@@ -1203,6 +1203,7 @@ footer {
 
         .hamburger {
             display: block;
+       
         }
 
         .carousel-nav {
