@@ -1175,14 +1175,11 @@ footer {
             overflow: hidden;
             flex-direction: column;
             background-color: #121010;
-            /* o el color que desees */
-            position: absolute;
+                      position: absolute;
             top: 60px;
-            /* ajustá si tu nav es más alto */
             right: 0;
-            width: 30%;
+            /* width: 30%; */
             padding: 0 1rem;
-            /* solo horizontal al estar colapsado */
             transition: max-height 0.4s ease;
         }
 
