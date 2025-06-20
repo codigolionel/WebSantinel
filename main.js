@@ -175,3 +175,22 @@ if (document.readyState === 'loading') {
         });
 
         observer.observe(document.querySelector('.features'));
+
+document.addEventListener('DOMContentLoaded', () => {
+    const hamburger = document.querySelector('.hamburger');
+    const navMenu = document.querySelector('.nav-menu');
+    const navLinks = document.querySelectorAll('.nav-menu a');
+
+    // Alterna visibilidad del menú
+    hamburger.addEventListener('click', () => {
+        navMenu.classList.toggle('active');
+    });
+
+    // Cierra el menú al hacer click en un enlace
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            navMenu.classList.remove('active');
+        });
+    });
+});
+
