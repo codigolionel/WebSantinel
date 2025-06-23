@@ -984,18 +984,63 @@ nav {
     margin-top: 2rem;
 }
 
-.social-links a {
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    background: #ff6b35;
-    color: white;
-    text-align: center;
-    line-height: 40px;
-    margin-right: 10px;
-    border-radius: 50%;
-    text-decoration: none;
-}
+.social-links {
+            margin-top: 2rem;
+        }
+
+        .social-links a {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            background: #ff6b35;
+            color: white;
+            text-align: center;
+            line-height: 40px;
+            margin-right: 10px;
+            border-radius: 50%;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        /* Colores específicos para cada red social */
+        .social-links a.facebook {
+            background: #1877f2;
+        }
+
+        .social-links a.instagram {
+            background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+        }
+
+        .social-links a.twitter {
+            background: #000000;
+        }
+
+        .social-links a.tiktok {
+            background: #000000;
+        }
+
+        /* Efectos hover */
+        .social-links a:hover {
+            transform: scale(1.1);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .social-links a.facebook:hover {
+            background: #166fe5;
+        }
+
+        .social-links a.instagram:hover {
+            background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+            filter: brightness(1.1);
+        }
+
+        .social-links a.twitter:hover {
+            background: #1a1a1a;
+        }
+
+        .social-links a.tiktok:hover {
+            background: #1a1a1a;
+        }
 
 .contact-form h3 {
     font-size: 1.5rem;
